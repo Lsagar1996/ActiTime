@@ -38,6 +38,7 @@ public class CustomerModule extends BaseCls{
 		t.getOurCmpOpt().click();
 		t.getCrtCustBtn().click();
 		String actlCustCrtd = t.getActualCustCrtd().getText();
-		Assert.assertEquals(actlCustCrtd, expectdCustName);	
+		Assert.assertEquals(actlCustCrtd, expectdCustName);
+		//sagar
 	}
 }
